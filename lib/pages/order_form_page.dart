@@ -48,7 +48,6 @@ class _OrderFormPageState extends State<OrderFormPage> {
   @override
   Widget build(BuildContext context) {
     return ScaffoldPage(
-      header: const PageHeader(title: Text('Register Order')),
       content: Form(
         key: _formKey,
         child: Column(
