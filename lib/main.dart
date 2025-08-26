@@ -70,7 +70,7 @@ class _MyAppState extends State<MyApp> {
               body: InventoryPage(products: products),
             ),
             PaneItem(
-              icon: const Icon(FluentIcons.shopping_cart),
+              icon: const Icon(FluentIcons.box),
               title: const Text('Orders'),
               body: OrdersPage(orders: orders),
             ),
