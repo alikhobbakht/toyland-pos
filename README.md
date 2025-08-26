@@ -8,3 +8,11 @@ A simple Flutter-based point of sale app featuring inventory management and orde
 - Form to register new orders
 
 This project uses the [`fluent_ui`](https://pub.dev/packages/fluent_ui) package for a polished UI.
+
+## Running
+Ensure you have the [Flutter SDK](https://flutter.dev/desktop) installed with desktop support enabled.
+
+```bash
+flutter pub get
+flutter run -d windows   # or `-d linux`/`-d macos`
+```
